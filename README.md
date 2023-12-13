@@ -1,36 +1,48 @@
-# Sistema de Videocentro en C#
+# Sistemas Altair - Primera Prueba de Página Web
 
-Este es un simple sistema de videocentro desarrollado en C# que permite realizar operaciones de registro de usuarios, renta de películas y visualización de información.
+Este es el código fuente de la página web para "Sistemas Altair", un proyecto de portafolio para un freelancer llamado Julio Cesar Ramirez.
 
-## Funcionalidades
+## Estructura del Proyecto
 
-- **Modulo de Registro:** Permite registrar nuevos usuarios con información personal.
-- **Modulo de Renta:** Permite a los usuarios registrados rentar películas, con límite de 3 películas por usuario.
-- **Modulo de Visualización:** Proporciona información sobre usuarios registrados y préstamos realizados.
-- **Salir:** Permite salir del programa.
+- **css/normalize.css:** Archivo CSS para normalizar estilos en diferentes navegadores.
+- **css/styles.css:** Archivo CSS con estilos personalizados para la página.
+- **index.html:** Archivo principal que contiene la estructura HTML de la página.
 
-## Uso
+## Contenido
 
-1. Ejecuta la aplicación y selecciona la opción correspondiente al módulo que deseas utilizar.
-2. Sigue las instrucciones proporcionadas en cada módulo para realizar las operaciones deseadas.
+### Encabezado (Header)
+- Nombre y título del freelancer.
+- Barra de navegación con enlaces a las secciones de la página.
 
-## Archivos
+### Sección Hero
+- Mensaje principal y llamada a la acción.
+- Información de ubicación.
 
-- **usuarios.txt:** Contiene la información de los usuarios registrados.
-- **prestamos.txt:** Guarda los detalles de los préstamos realizados.
+### Sección Principal (Main)
+- Información sobre los servicios ofrecidos.
+- Tres secciones de servicios, cada una con un título, iconos representativos y descripción.
+- Sección de contacto con un formulario que incluye campos para nombre, teléfono, correo y mensaje.
 
-## Requisitos del Sistema
+### Pie de Página (Footer)
+- Mensaje de derechos reservados.
 
-- Se requiere una consola de C# para ejecutar el programa.
+## Estilos y Fuentes
+
+- Uso de la fuente "Krub" desde Google Fonts.
+- Iconos personalizados para representar los servicios ofrecidos.
+
+## Requisitos
+
+- Se requiere un navegador web para visualizar la página correctamente.
 
 ## Contribución
 
-Si deseas contribuir al desarrollo del proyecto, sigue las siguientes pautas:
-
-1. Fork el repositorio.
-2. Realiza tus cambios.
-3. Envía un pull request.
+- Si deseas contribuir o realizar cambios en el diseño, sigue las siguientes pautas:
+  1. Realiza un fork del repositorio.
+  2. Implementa tus cambios.
+  3. Envía un pull request.
 
 ## Problemas conocidos
 
-- No se maneja la persistencia
+- La página no cuenta con medidas de seguridad avanzadas.
+- Se recomienda verificar la accesibilidad y optimización para diferentes dispositivos.
